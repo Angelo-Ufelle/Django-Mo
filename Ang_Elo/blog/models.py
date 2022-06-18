@@ -1,3 +1,4 @@
+from ssl import get_default_verify_paths
 from django.db import models
 from django.contrib.auth import get_user_model
 User = get_user_model()
@@ -9,4 +10,3 @@ class Post(models.Model):
     Created_date = models.DateTimeField()
     Published_date = models.DateTimeField()
     Author = models.ForeignKey(User, on_delete=models.CASCADE)
-    
