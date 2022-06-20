@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Ang_Elo.urls'
+ROOT_URLCONF = 'I4G000856ZJP.urls'
 
 TEMPLATES = [
     {
@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Ang_Elo.wsgi.application'
+WSGI_APPLICATION = 'I4G000856ZJP.wsgi.application'
 
 
 # Database
